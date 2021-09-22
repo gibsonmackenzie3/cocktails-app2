@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-family: 'Koh Santepheap', cursive;
+}
+
+header {
+    height: 20%;
+    border: 2px solid purple;
+
+}
+
+main {
+    height: 80%;
+    border: 2px solid plum;
+
+}
+
+#modal {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+
+    /* 
+        We make the modal a flex container 
+        so we can center it vertically
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-text-box {
+    height: 75%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
